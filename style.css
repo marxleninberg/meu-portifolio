@@ -1,9 +1,10 @@
+/* Reset de estilo padrão */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Estilo geral do corpo do site */
 body{
     background-color: rgb(255, 255, 255);
     height: 100%;
@@ -13,7 +14,7 @@ body{
     align-items: center;
     line-height: 1.5em;
 }
-
+/* Estilo do cabeçalho */
 header{
     display: flex;
     justify-content: space-between;
@@ -22,7 +23,7 @@ header{
     background-color: rgb(32, 33, 31);
     top: 0;
 }
-
+/* Estilo do nome à esquerda do cabeçalho */
 .nome{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
@@ -30,7 +31,7 @@ header{
     line-height: 90%;
     color: white;
 }
-
+/* Estilo do menu de navegação e seus itens */
 .menu{
     justify-content: space-between;
     list-style-type: none;
@@ -40,9 +41,9 @@ header{
 }
 
 .menu li{
-    margin: 10px;
+    margin: 5px;
     display: inline-block;
-    padding: 0 12px;
+    padding: 0 20px;
     font-size: 20px;
 }
 
@@ -51,19 +52,19 @@ header{
     text-decoration: none;
     text-align: left;
 }
-
+/* Altera a cor dos elementos ao passar o mouse */
 nav a:hover{
     color: rgb(232, 241, 255);
     transition: 0.3s;
 }
-
+/* Estilo dos títulos das Seções */
 .titulo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     font-size: 36px;
     margin: 20px auto;
 }
-
+/* Estilos das listas das Seções */
 ul{
     margin: 20px;
 }
@@ -71,7 +72,7 @@ ul{
 li{
     list-style-type: none;
 }
-
+/* Estilos do conteúdo das páginas */
 .content{
     margin: 30px 5%;
     padding: 10px 7%;
@@ -102,7 +103,7 @@ hr{
     width: 35%;
     margin: 20px auto;
 }
-
+/* Estilo do rodapé com os links de redes sociais */
 footer{
     display: flex;
     justify-content: center;
@@ -123,7 +124,7 @@ footer p {
     font-size: 12px;
     margin: -8px;
 }
-
+/* Estilo do formulário e seus elementos*/
 form {
     max-width: 600px;
     margin: 12px 0px;
